@@ -1,1 +1,7 @@
-# pypi-negex
+# PyNegEx
+
+## Usage
+
+## Modifications
+
+## Credits & License

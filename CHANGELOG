@@ -1,0 +1,16 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [0.0.1dev] - 2023-03-05
+
+### Added
+
+- German trigger set by cotik et al. 2016 (#a4c54156ccb5d72c61e293fc78af58cb13c66c00).
+
+### Fixed
+
+- Typos in chapman english set (#e80f520013fd7d80d64ae216ab346eaa6adf45a3).

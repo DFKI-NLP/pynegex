@@ -1,0 +1,1 @@
+from pynegex.model.runners import run as run_negex
