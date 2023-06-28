@@ -14,7 +14,11 @@ def sortRules(ruleList):
         s = rule.strip().split('\t')
         splitTrig = s[0].split()
         trig = r'\s+'.join(splitTrig)
-        pattern = r'\b(' + trig + r')\b'
+        # pattern = r'\b(' + trig + r')\b'
+        if trig == "\?":
+            pattern = r'(' + trig + r')'
+        else:
+            pattern = r'\b(' + trig + r')\b'
         s.append(re.compile(pattern, re.IGNORECASE))
         sortedList.append(s)
     return sortedList
