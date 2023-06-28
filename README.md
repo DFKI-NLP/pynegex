@@ -1,6 +1,6 @@
 # PyNegEx
 
-PyNegEx is a PIPY modular package based on Chapman's NegEx implementation. NegEx is a rule-based algorithm to detect assertion in clinical texts.
+PyNegEx is a PyPI modular package based on Chapman's NegEx implementation. NegEx is a rule-based algorithm to detect assertion in clinical texts.
 
 Motivation behind PyNegEx is to provide the community with a modern python packaing for the algorithm to guarantee easy usage and a space for better maintainability, e.g. add support for other languages.
 
