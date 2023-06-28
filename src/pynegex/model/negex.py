@@ -162,7 +162,7 @@ class negTagger(object):
                         '[PHRASE]', '[POSSIBLE]')
                     sentencePortion = sentencePortion + ' ' + sentenceTokens[i]
 
-                sb3 = sb3 + ' ' + sentenceTokens[i]
+                sb3.append(sentenceTokens[i])
 
             if sentencePortion.strip():
                 aScopes.append(sentencePortion.strip())
