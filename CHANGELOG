@@ -13,4 +13,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
-- Typos in chapman english set (#e80f520013fd7d80d64ae216ab346eaa6adf45a3).
+- Typos in chapman english set (#e80f520013fd7d80d64ae216ab346eaa6adf45a3) (also reported [here](https://code.google.com/archive/p/negex/issues/6)).
+- Enable usage of German trigger set by cotik et al. 2016 (#62901af47dcc0bad99f60f41a4c13a126f594dc8) (check for more [here](http://macss.dfki.de/german_trigger_set.html)).
+- Issue when `speculation=True` (#54fbad6d9c52384f815beb3f047bf06ab647d1a4) (also reported [here](https://code.google.com/archive/p/negex/issues/5)).
