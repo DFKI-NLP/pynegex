@@ -12,7 +12,7 @@ long_description = (cwd / "README.md").read_text()
 #     version = fin.read().strip()
 setup(
     name='pynegex',
-    version="0.0.1-dev",
+    version="0.0.2-dev",
     author="Moe Bin Sumait",
     author_email="mh.binsumait@gmail.com",
     description="Pypi package for negex with multilingual support",
