@@ -7,12 +7,13 @@ cwd = Path(__file__).parent
 
 long_description = (cwd / "README.md").read_text()
 
-# cwd = os.path.dirname(os.path.abspath(__file__))
-# with open(os.path.join(cwd, "src/pynegex", "VERSION")) as fin:
-#     version = fin.read().strip()
+cwd = os.path.dirname(os.path.abspath(__file__))
+with open(os.path.join(cwd, "src/pynegex", "VERSION")) as fin:
+    version = fin.read().strip()
+
 setup(
     name='pynegex',
-    version="0.0.2-dev",
+    version=version,
     author="Moe Bin Sumait",
     author_email="mh.binsumait@gmail.com",
     description="Pypi package for negex with multilingual support",
