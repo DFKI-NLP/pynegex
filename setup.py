@@ -17,7 +17,7 @@ setup(
     author_email="mh.binsumait@gmail.com",
     description="Pypi package for negex with multilingual support",
     long_description=long_description,
-    long_description_content_type='text/markdown'
+    long_description_content_type='text/markdown',
     # Find packages under the 'src' directory
     packages=find_packages(where='src'),
     package_dir={'': 'src'},              # Root directory for the packages
