@@ -6,6 +6,7 @@ from setuptools import Extension, find_packages, setup
 cwd = os.path.dirname(os.path.abspath(__file__))
 # with open(os.path.join(cwd, "src/pynegex", "VERSION")) as fin:
 #     version = fin.read().strip()
+long_description = (cwd / "README.md").read_text()
 
 setup(
     name='pynegex',
@@ -13,6 +14,7 @@ setup(
     author="Moe Bin Sumait",
     author_email="mh.binsumait@gmail.com",
     description="Pypi package for negex with multilingual support",
+    long_description=long_description,
     # Find packages under the 'src' directory
     packages=find_packages(where='src'),
     package_dir={'': 'src'},              # Root directory for the packages
