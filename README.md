@@ -21,9 +21,19 @@ pip install pynegex
 ```python
 import pynegex
 
-pynegex.run("patient hat kein Fieber", "Fieber", "cotik-de")
+pynegex.run(text="patient hat kein Fieber",
+            ent_tag="Fieber",
+            triggerset_name="cotik-de",
+          )
 # ['negated', 'patient [PREN]hat kein[PREN] [NEGATED]Fieber[NEGATED]']
 ```
+
+Supported languages are specificed with triggerset_name:
+
+- 'en' or 'chapman-en' for English
+- 'de' or 'cotik-de' for German
+
+Speculation is enabled by default, but you can change it by passing `speculation=False`.
 
 ## Modifications
 
