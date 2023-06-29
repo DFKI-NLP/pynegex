@@ -6,7 +6,7 @@ from setuptools import Extension, find_packages, setup
 cwd = os.path.dirname(os.path.abspath(__file__))
 # with open(os.path.join(cwd, "src/pynegex", "VERSION")) as fin:
 #     version = fin.read().strip()
-long_description = (cwd / "README.md").read_text()
+long_description = (cwd + "/README.md").read_text()
 
 setup(
     name='pynegex',
