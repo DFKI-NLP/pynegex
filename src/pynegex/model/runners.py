@@ -24,4 +24,5 @@ def run(text: str, ent_tag: str, triggerset_name: str, speculation=True):
             ent_tag], rules=irules, negP=speculation)
         return [tagger.getNegationFlag(), tagger.getNegTaggedSentence()]
     except Exception as e:
-        raise Error("Exception raised at run() of negex model", e)
+        print(e)
+        # raise Exception("Exception raised at run() of negex model")
