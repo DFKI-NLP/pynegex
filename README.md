@@ -31,7 +31,8 @@ PyNegex uses the original implementation by Chapman with support for German (tri
 
 ## Credits & License
 
-PyNegEx is released in compliance with the original licese of NegEx which is Python 2.5.4.
+PyNegEx contains code parts that are released in compliance with their original license which is Python 2.5.4.
+These code parts are essentially negex algorithm.
 
 Furthermore, credits for the other languages support:
 
