@@ -28,10 +28,10 @@ pynegex.run(text="patient hat kein Fieber",
 # ['negated', 'patient [PREN]hat kein[PREN] [NEGATED]Fieber[NEGATED]']
 ```
 
-Supported languages are specificed with triggerset_name:
+Supported languages are specificed with `triggerset_name`:
 
-- 'en' or 'chapman-en' for English
-- 'de' or 'cotik-de' for German
+- `'en'` or `'chapman-en'` for English
+- `'de'` or `'cotik-de'` for German
 
 Speculation is enabled by default, but you can change it by passing `speculation=False`.
 
