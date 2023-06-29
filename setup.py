@@ -20,7 +20,12 @@ setup(
     long_description_content_type='text/markdown',
     # Find packages under the 'src' directory
     packages=find_packages(where='src'),
-    package_dir={'': 'src'},              # Root directory for the packages
+    # Root directory for the packages
+    package_dir={'pynegex': 'src'},
+    package_data={'pynegex': [
+        "src/pynegex/VERSION",
+        "src/pynegex/model/triggersets/*.txt"
+    ]},
     py_modules=["pynegex"],                # Name of the python package
     # List any dependencies required by your package)
     python_requires='>=3.6',                # Minimum version requirement of the package
