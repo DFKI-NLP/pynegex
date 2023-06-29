@@ -24,7 +24,7 @@ import pynegex
 pynegex.run(text="patient hat kein Fieber",
             ent_tag="Fieber",
             triggerset_name="cotik-de",
-          )
+            )
 # ['negated', 'patient [PREN]hat kein[PREN] [NEGATED]Fieber[NEGATED]']
 ```
 
@@ -41,8 +41,8 @@ PyNegex uses the original implementation by Chapman with support for German (tri
 
 ## Credits & License
 
-PyNegEx contains code parts that are released in compliance with their original license which is Python 2.5.4.
-These code parts are essentially negex algorithm.
+PyNegEx contains code parts that are released in compliance with their original license.
+These code parts are anything originated from original distirbuted negex repo.
 
 Furthermore, credits for the other languages support:
 
